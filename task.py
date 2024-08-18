@@ -1,3 +1,5 @@
 from art import tprint
-tprint("PYTHON")
+from class1 import Bonjour
+a = Bonjour("Bonjour")
+tprint(str(a))
 
